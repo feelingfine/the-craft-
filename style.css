@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 9vh;
+    background-color: rgba(255, 228, 196, 0.449);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 4vh;
+    font-weight: 90px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+
+.section-head{
+    /* background-color: rgba(255, 228, 196, 0.449); */
+    box-shadow: -5px 8px burlywood;
+    border: 2px solid burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 12px 12px;
+}
+
+.section{
+    padding: 12px;
+}
+
+.section-artisan{
+    /* background-color: rgba(255, 228, 196, 0.449); */
+    /* display: flex; */
+    /* flex-direction: row; */
+    border: 2px solid burlywood;
+    padding: 15px;
+    margin: 12px 12px;
+    box-shadow: -5px 8px burlywood;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    /* padding: 12px; */
+}
+.artisan{
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 12px 13px;
+    padding: 12px;
+}
+
+.section-product{
+    /* display: flex; */
+    border: 2px solid burlywood;
+    box-shadow: 5px -8px 5px burlywood;
+    padding: 15px;
+    margin: 12px 12px;
+}
+
+.wrapper2{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap:  wrap;
+}
+
+.products{
+    margin: 12px 13px;
+    padding: 14px;
+}
+
+.footer{
+    background-color: rgba(255, 228, 196, 0.449);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.btn{
+    padding: 5px;
+    border-radius: 12px ;
+}
